@@ -10,6 +10,340 @@
 
     <title>Zyra</title>
 </head>
+
+<style>
+  *{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head img{
+    height:80px !important;
+}
+.head{
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    font-size: 120%;
+    background-image: linear-gradient(225deg, #b43cff 0%, #784BA0 50%, #2B86C5 100%);
+    box-shadow: 0px 0px 10px gray;
+	animation: back 15s ease infinite;
+    background-size: 300%;
+}
+
+.head a{
+    color: #ffffff !important;
+}
+
+.section1{
+    display: flex;
+    height: 100vh;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #b43cff 0%, #784BA0 50%, #2B86C5 100%);
+    background-size: 300%;
+	animation: back 15s ease infinite;
+}
+.section1 img{
+    height: 300px !important;
+}
+.section1 span{
+    color: #238fdb;
+    text-shadow: 0px 10px 10px black;
+}
+#astro{
+    font-size: 27px;
+}
+@media (width>425px) and (width< 850px) {
+    .section1 h1{
+        font-size:x-large;
+    }
+    .section1 h3{
+        font-size:large;
+    }
+    .section1 span{
+        font-size:x-large;
+    }
+    #astro{
+        font-size:large;
+    }
+}
+@media (width< 480px) {
+    .section1{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .section1 h1{
+        font-size:x-large;
+    }
+    .section1 h3{
+        font-size:large;
+    }
+    .section1 span{
+        font-size:x-large;
+    }
+    #astro{
+        font-size:large;
+    }
+}
+@keyframes back{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.section2{
+    height: 1000px;
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 100px;
+    color: black;
+    background-image: linear-gradient(225deg, #b43cff 0%, #784BA0 50%, #2B86C5 100%);
+    background-size: 300%;
+	animation: back 15s ease infinite;
+}
+.box-main{
+    padding: 1%;
+    width: 70%;
+    border: 5px solid black;
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.massage-box{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 2%;
+}
+.form2 #massage{
+    width: 700px;
+}
+.form2 textarea {
+    overflow: hidden; /* Hides both horizontal and vertical scrollbars */
+}
+
+.form{
+    display: flex;
+    align-items: center;
+}
+@media (width<1180px) and (width>875px) {
+    .form2 #massage{
+        width: 500px; 
+    }
+}
+@media (width<875px) and (width>670px) {
+    .form2 #massage{
+        width: 370px; 
+    }
+}
+@media (width<670px) and (width>610px) {
+    .form2 #massage{
+        width: 270px; 
+    }
+}
+@media (width<420px) and (width>350px) {
+    .form2 #massage{
+        width: 200px; 
+    }
+}
+@media (width<350px) {
+    .form2 #massage{
+        width: 100px; 
+    }
+}
+
+.chat li{
+    width: max-content;
+    background-color: #ffffff;
+    border: 1px solid black;
+    margin: 3%;
+    border-radius: 10px;
+    padding: 1%;
+    list-style-type: none;
+}
+
+.section1 .btn {
+    font-size: 1.2rem;
+    margin-top: 30px;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #1f4c65;
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+.section1 .btn:active {
+    scale: 0.92;
+}
+.section1 .btn:hover {
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+}
+.logo11{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo11 img{
+    height: 190px;
+}
+.logo12 img{
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-nihala{
+    height: 130%;
+    width: 100vw;
+}
+.up{
+    height: 40%;
+    padding-top: 20px;
+    width: 100%;
+    background-color: rgb(1, 1, 80);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+@media (width < 830px){
+    .up{
+        flex-direction: column;
+        align-content: center;
+        justify-content: flex-start;
+        height: 100%;
+        
+    }
+    .a{
+        width: 100%;
+        font-size:large;
+        
+    }
+    .a p{
+        font-size:16px;
+    }
+    .b{
+        width: 100%;
+        height: 100%;
+        margin-bottom: auto;
+        background-color:  rgb(1, 1, 80);
+    }
+    .b p{
+        font-size: x-large;
+    }
+    .b h3{
+        font-size: xx-large;
+    }
+}
+
+@media (width < 710px){
+    .a p{
+        font-size: large;
+    }
+}
+@media (width < 460px){
+    .a{
+        font-size: large;
+        justify-content: start;
+        align-items:start;
+    }
+}
+.up img{
+    height: 120px;
+}
+.d img{
+    height: 20px;
+}
+.main-nihala a{
+    color: rgb(182, 174, 174);
+    text-decoration-line: none;
+}
+.a{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+   
+}
+.b{
+    height: 60%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 18px;
+    justify-content: center;
+   
+}
+.d{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 1, 80);
+    gap: 10px;
+}
+
+.pad{
+    height: 25px;
+    background-color:rgb(1, 1, 80) ;
+}
+.b h3{
+    color: white;
+}
+.para{
+    color: rgb(182, 174, 174);
+    font-size:large;
+}
+.copy{
+    background-color: rgb(1, 1, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(158, 156, 156);
+    height: 10%;
+}
+
+</style>
+
+
+
+
 <body>
 <header class="main-body"> 
   <nav class="navbar navbar-expand-lg navbar-light bg-light head">
