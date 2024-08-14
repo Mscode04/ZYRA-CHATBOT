@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Product</title>
+    <link rel="stylesheet" href="/asset/css/product.css">
+    <link rel="stylesheet" href="/asset/css/styles.css">
+    <link rel="stylesheet" href="/asset/css/footer.css">
+
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: rgb(1, 1, 80);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 100px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+    gap: 15px;
+}
+
+.menu-item {
+    border: 5px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu-item h2 {
+    margin: 7px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu-item p {
+    font-size: 15px;
+    margin: 10px;
+    color: rgb(49, 48, 48);
+}
+
+
+
+button {
+    background-color: rgb(1, 1, 80);
+    border: none;
+    color: #fff;
+    padding:5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (width < 750px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-item {
+        width: 100%;
+    }
+}
+@media (width>425px) and (width< 1000px) {
+    .menu-item3{
+        width: 70%;
+    }
+}
+
+    </style>
+
+</head>
+<body>
+
+    <header class="main-body"> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light head">
+          <a class="navbar-brand a-main" href="#"><img src="/asset/images/img8.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Pages/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Pages/contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <button class="btn btn-outline-dark my-2 my-sm-0" type="submit"><a href="/Pages/feedback.html" style="text-decoration: none;">Feedback</a></button>
+           </form>
+          </div>
+      </nav>
+      </header>
+<section>
+    <div class="main">
+        <h1>Product</h1>
+    </div>
+    <div class="menu">
+        <div class="menu-item">
+            <img src="/asset/images/pic1.jpg" alt="">
+            <h2>Theme</h2>
+            <p>A chatbot themed around "Empathy and Understanding" focuses on providing accurate information while engaging with users in a compassionate and supportive way. It recognizes emotional cues, offers comforting responses, and fosters a sense of connection, making users feel heard and valued.
+            </p>
+           
+            <button>Know More</button>
+        </div>
+        <div class="menu-item">
+            <img src="/asset/images/pic2.jpg" alt="">
+            <h2>Websites</h2>
+            <p>At *astrians*, we specialize in creating captivating and high-performing websites meticulously tailored to meet your specific needs. Enhance your online presence and drive success with our expert touch and innovative solutions.
+            </p>
+            
+            <button>Know More</button>
+        </div>
+        <div class="menu-item menu-item3">
+            <img src="/asset/images/pic3.jpg" alt="">
+            <h2>Mobile App</h2>
+            <p>A mobile app version of a chatbot web app brings the same empathetic and supportive experience to users on the go, ensuring they feel connected and valued wherever they are.It offers seamless access to compassionate interactions, making help available anytime, anywhere.</p>
+
+            <button>Know More</button>
+            
+        </div>
+    </div>
+</section>.
+<footer>
+    <div class="main-nihala">
+      <div class="up">
+        <div class="a">
+          <a href="#"><img src="/asset/images/img8.png" alt=""></a>
+          <p class="para">Zyra is an AI chatbot that enhances user interactions with intelligent,personalized conversations, providing seamless, engaging experiences through cutting-edge technology.</p>
+          <p class="para"></p>
+          <p class="para"></p>      
+        </div>
+        <div class="b">
+          <h3>Product</h3>
+          <p><a href="/Pages/product.html">Theme</a></p>
+          <p><a href="/Pages/product.html">Websites</a></p>
+          <p><a href="/Pages/product.html">Mobile Apps</a></p>
+        </div>
+      </div>
+      <div class="d">
+          <a href="#"><img src="/asset/images/instagram-f-svgrepo-com.svg" alt=""></a>
+          <a href="#"><img src="/asset/images/github-142-svgrepo-com.svg" alt=""></a>
+          <a href="#"><img src="/asset/images/google-alt-svgrepo-com.svg" alt=""></a>
+          <a href="#"><img src="/asset/images/linkedin-round-svgrepo-com.svg" alt=""></a>
+    </div>
+    <div class="pad"></div>
+    <hr style="margin: 0;">
+    <div class="pad"></div>
+  
+    <div class="copy"> 
+      <p>All rights reserved by <a href="#">© Copyright conceptial 2020</a></p>
+    </div>
+  </div>
+  </footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

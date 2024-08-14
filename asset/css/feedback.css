@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.anfar{
+    padding-top: 100px;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    width: 60%;
+    height: 90%;
+    background-color: white;
+    border-radius: 10px;
+}
+.bar2 h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(172, 17, 69);
+}
+
+.bar2{
+    width: 100%;
+    height: 75%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.text{
+    width: 500px;
+   height: 30px;
+   padding-left: 10px;
+  
+}
+.bar2 textarea {
+    resize: none;
+    overflow: hidden; 
+}
+.bar2 #massage{
+    width:500px;
+    padding-left: 10px;
+}
+.bar2 button{
+    width: 150px;
+    height: 40px;
+    background-color:  rgb(172, 17, 69);
+    color: white;
+    margin-left: 175px;
+    border-radius: 10px;
+}
+.bar2 button:hover{
+    background-color: palevioletred;
+}
+@media all and (max-width: 660px){
+    .form{
+        width: 70%;
+    }
+    .bar1{
+        font-size: 10px;
+    }
+    .text{
+        width: 250px;
+        /* background-color: blue; */
+    }
+    .bar2 #massage{
+        width: 250px;
+        /* background-color: blueviolet; */
+    }
+    button{
+        margin-left: 70px;
+    }
+
+}
+@media all and (width > 660px) and (width < 900px){
+    .form{
+        width: 70%;
+    }
+    .bar1{
+        font-size: 10px;
+    }
+    .text{
+        width: 350px;
+        /* background-color: blue; */
+    }
+    .bar2 #massage{
+        width: 350px;
+        /* background-color: blueviolet; */
+    }
+    button{
+        margin-left: 70px;
+    }
+
+}
+@media all and (max-width: 400px){
+    .form{
+        width: 70%;
+    }
+    .bar2 h1{
+        font-size: 10px;
+    }
+    .text{
+        width: 200px;
+        /* background-color: blue; */
+    }
+    .bar2 #massage{
+        width: 200px;
+        /* background-color: blueviolet; */
+    }
+    button{
+        margin-left: 70px;
+    }
+
+}
+
